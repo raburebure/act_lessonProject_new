@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "M PLUS Rounded 1c";
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  justify-items: center;
+  text-align: center;
+  grid-template-rows: 100px 1fr;
+}
+
+h1 {
+  margin-top: 50px;
+  height: 10vh;
+}
+
+main {
+  width: 60%;
+  padding-top: 7%;
+  display: flex;
+  justify-content: center;
+}
+
+.req-section,
+.res-section {
+  width: 30%;
+}
+
+.vertical-border {
+  background: #b1b1b1;
+  width: 2px;
+  height: 60%;
+  margin: 0 50px;
+}
+
+::placeholder {
+  color: #c3c3c3;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 300px;
+  height: 5vh;
+  margin: 30px 0;
+  padding: 5px 15px;
+  font-size: 25px;
+  border-radius: 10px;
+  border: 2px solid #c3c3c3;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+  outline: none;
+  border: 2px solid #00acbc;
+}
+
+button {
+  background-color: coral;
+  border: none;
+  color: white;
+  padding: 20px 40px;
+  cursor: pointer;
+  font-size: 20px;
+  border-radius: 40px;
+  transition: all 0.2s;
+  margin-top: 10px;
+}
+
+button:hover {
+  opacity: 0.7;
+  transform: translate(-1%, -2%);
+}
+
+.res-section div {
+  width: 100%;
+  height: 5vh;
+  margin: 50px 0;
+  padding: 5px 15px;
+  font-size: 25px;
+  text-align: left;
+}
